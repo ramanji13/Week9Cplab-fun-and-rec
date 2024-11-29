@@ -1,9 +1,9 @@
 #include<stdio.h>
-int swap(int* m,int* n) {
+void swap(int* m,int* n) {
     int temp=*m;
     *m=*n;
     *n=temp;
-    return *m,*n;
+    
 }
 int main() {
     int a,b;
